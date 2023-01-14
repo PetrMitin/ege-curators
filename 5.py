@@ -23,5 +23,6 @@ with open('hh.txt') as file:
                 ans = max(ans, count)
                 count = 0
             prev_let1 = let
-print(ans)
+    print(ans)
+    file.close()
 
